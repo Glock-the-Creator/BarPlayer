@@ -2,4 +2,5 @@
 *.dll filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
 *.dat filter=lfs diff=lfs merge=lfs -text
+docs/Application[[:space:]]Files/Bar_1_0_0_0/Tools/ffmpeg.exe.deploy filter=lfs diff=lfs merge=lfs -text
 docs/Application[[:space:]]Files/**/Tools/*.deploy filter=lfs diff=lfs merge=lfs -text
