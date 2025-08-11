@@ -1,0 +1,3548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Bar.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="16384">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>reN6saXTTpT1MN8Bga244S5LJSlUxotokvkDg9QXYVE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Bar.deps.json" size="60410">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZMgPpcRPdPz3sj9KpaHxr5xE3jfrc3Q7iabNBzpqYtY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Bar.dll" size="1096192">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eOOXT8iD0bD3uV8c2S+xaYFEYw0hkfuR36uFaAirMvQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Bar.exe" size="149504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q5or9+mlEk7W43IalfgaZBqODFXsbzSU5KOoJIJbe2M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Bar.runtimeconfig.json" size="515">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ia0epcnCC2smZUfvJ8CuOEDKtWQtPCrt8GtwJiRWcd0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ColorThief.Netstandard.v20.dll" size="18944">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tM4Cj7zPShghLx8m6yoEITtxoSj0rTsumoHelNkJIRc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="libvlc.dll" size="194440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CV0WRjOvU6wBXc12VA6FI3RPV9UG2xEfGbP92dYYCDM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="libvlccore.dll" size="2810760">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LduFs2ZQ+FtaCXJMWxdCixsbdr0+PdhbZDkzZZ1eMz0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LibVLCSharp.dll" size="229376">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Em/RsBbo5INC97GDvDc3qeEOjHycZUuolp3P4FFiBQM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LibVLCSharp.WinForms.dll" size="8704">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bmslKdgKEyyvyAIxQ1Wrf3NjS6s3fpCX/NC+fweKjkk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LibVLCSharp.WPF.dll" size="18432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9OkHIZ2vAABaRzHHcXS+TIaoHc2Pw32msChX/tKQKbk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NAudio.Asio.dll" size="34304">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ygN4AhcTmzf39baSHVne+40kmIMVsWsWenf6iMqn0A8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NAudio.Core.dll" size="187904">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/PST/Eei9HimUwOIa5dfvb9xTLsfLXn3/Ol+S7FrAag=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NAudio.dll" size="7680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wAHknTFJf2CLFAZrDxAwTAzLfjud+dX+xc8xlvkpYbg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NAudio.Midi.dll" size="46592">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8kbimSF5exc7VCKWhemXoR+cw4j6HlicISMoq9epTr4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NAudio.Wasapi.dll" size="179200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YY7w5J1k56Zt/mS79q6BcFudloPYqfMh5cMCTWZr34I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NAudio.WinForms.dll" size="34304">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sxP1MCJ/0x/Ctvp0VH9MipZM3naWwHYk38GbaT/pxGg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NAudio.WinMM.dll" size="57344">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dJoB67te3YsaA8UmOwTeasrez1LkzITXQSvG6T8YCVg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libaccess_concat_plugin.dll" size="46472">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>b29VnvjSFZMH0K6ZWZQkATfMPOV8D5Lq4uUjqlnlUtM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libaccess_imem_plugin.dll" size="76680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QMh4qOev1NwYqhha5xPxEsJW8dXKgrZ0LXI/rqufVjI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libaccess_mms_plugin.dll" size="111496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dEQjC1FqENHei4zPGgqYdzjIZqc4BW2FMi1EJ7n4azA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libaccess_realrtsp_plugin.dll" size="153480">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PBUCV6lPUz5VttM4On0U1PW21ny9nZIaXqlc4xNDius=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libaccess_srt_plugin.dll" size="3688328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CcJ5wu2BKBEhRRNXdYRodMCAo6ZDkAUJbBADkwbwmuc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libaccess_wasapi_plugin.dll" size="62856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hO9TAOkYKVTwarpNSHd7Br/aSo2gg2/dsHjC/8S5AlI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libattachment_plugin.dll" size="44424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QP/2a4qquOJswHOgYBxEZPpU5zvAbRT8Ea7rx4GA0jc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libcdda_plugin.dll" size="829832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MFGkFYANQN46URRdcSvX9qoRWHeRJ53GXVuS4p4KdwM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libdcp_plugin.dll" size="2504584">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rFil2+hevJB+L5TKt8CtrFKDgwi1vvojXvJsjUOeWu4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libdshow_plugin.dll" size="926600">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yQaOX8dXSDWMezvhDxhsDx8e7FJ968NtZXpxLsmYBqI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libdtv_plugin.dll" size="908168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0pUBF+tEiRzMHuxIbonUyig2AoyJcLRpPVlRwWHDJhI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libdvdnav_plugin.dll" size="235912">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CPHp8xDa0/t+RfNWokXQrG86X7Untsgy7hq4YqkfEK0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libdvdread_plugin.dll" size="168840">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J0+C+HAfLLRAiqM+UCc+NaFphbvMvWnnjj5tKxXWvZ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libfilesystem_plugin.dll" size="74120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Qv35fAmfhPcE8wKCV84YPWfKncMwf28FPQ6p836sBIc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libftp_plugin.dll" size="130440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xigC95FzMIbnwNstFMlL1hrTS7MSkcvurt5jxln31vg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libhttp_plugin.dll" size="79240">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mbBJ2TKc3M36GzbZ3XN1V7+Dyw/9rNbHlzIqr/FKZ20=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libhttps_plugin.dll" size="158600">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ymWZOhP9n5yl+Xx4JUHTNYr2opWGLd1uoTdNu+PJtH0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libidummy_plugin.dll" size="44936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yc1z+V2WCKFAlsupb7V/ijaQseYRc2NMmLOqz17HmOs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libimem_plugin.dll" size="44936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WjEoo78IbGFZapSl76zqgkfpxCc/jqQQ7eBwOEAzuS4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\liblibbluray_plugin.dll" size="2125192">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>O/dMZ9eAzUTAV1rKV8mQUdzST2CMIJFB6pnDnqHa4Co=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\liblive555_plugin.dll" size="600456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>U02tvOF1aW/aH6f5fq6NC7YL9QxJ1tWo/Pv1muRTos8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libnfs_plugin.dll" size="295304">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NljZCr2yVogiEbCj10JdL0SdvCyIOXOTyY3KaBMf7R0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\librist_plugin.dll" size="121224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rHTytEdP0Eu69lnQyyeWefWpW8mjuVDZYv/jnsf7718=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\librtp_plugin.dll" size="678280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iPef1C5aQiRYtVrnDg5pQQHQHNVy2XA1Vc5dtcW9MDE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libsatip_plugin.dll" size="79240">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ht76HADjA0WAjR9yWvHhp4BzlJd/82ZlZlAns8hE5OI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libscreen_plugin.dll" size="52104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4szWR4EOQ3XuP3AfrtOLNyiViX3svoaMFKnhT2neo7s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libsdp_plugin.dll" size="43912">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>epf8uWTmKzkciDgCGuoY6/vRLl2bgURUMyzEb1HmPvs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libsftp_plugin.dll" size="889736">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RGPCLRqSLP1sqbmwUlOHf1ELNc/IWk0vrufBnhk68Uk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libshm_plugin.dll" size="46984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XLYUBvhKnlLwwM590EO/Mh6g2Ci01n7mQpyLFI60mWE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libsmb_plugin.dll" size="72072">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JrI2+KYxH89TDemZlDjcv0xR88nLaUeot5cJPM2kPN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libtcp_plugin.dll" size="44424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>skKQOHWYYzizsxfIn62HdtE1X56SzvRwYm70/UKEKoM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libtimecode_plugin.dll" size="69000">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SBfKxf5h9Iy8ToUBHoLsZaNoxMMxgxdL3CM8rQ8C+9s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libudp_plugin.dll" size="45960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WxZoeiUXc9qgZhwQm71kDvqs5Q8B8676zf74zlrVQMA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libvcd_plugin.dll" size="114056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FNdJPpRU4qa4u78bDLWJhcgBfDBEQV68YLh1+XQfJgM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libvdr_plugin.dll" size="111496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pg22WWGYu6Rr/CXWnksOzNAXvJ1xMDGjltDI3uvdooY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access\libvnc_plugin.dll" size="2965384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DfK2mzV3KcVxUpqfVpVpaq4Ml5sB+jq6Mxb7B6n9FQY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access_output\libaccess_output_dummy_plugin.dll" size="42888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CmdakWXepzsnEvrfOqYItQpfbY4Sc5TWAtYwVLJjVaw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access_output\libaccess_output_file_plugin.dll" size="48008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NqkuP+JZyxG/HuW3Q0SsFZizIr5bYKODmkUi4jZ3iU0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access_output\libaccess_output_http_plugin.dll" size="49032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0VY0W7fmjwwSv90GDiVDx0nHwpp3IEcQvltAKz+hOSY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access_output\libaccess_output_livehttp_plugin.dll" size="685960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OYWItrEcW7AH9U5ej/S+tEPPPdMBN0pA7U/BDStLaUk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access_output\libaccess_output_rist_plugin.dll" size="117128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qa4y0B2cQNsUJBBnbSM79xHkzLiCOGvFCfc5LFDO5L4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access_output\libaccess_output_shout_plugin.dll" size="469896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vrhwvYy8tKA6DnUkkS2cK4rZCd6hMSz9/TBmpURbtEw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access_output\libaccess_output_srt_plugin.dll" size="3689352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8hajAxfEQYtHAbJ8qBhW5bNyFmr/8qd94Tnnxk2gVzU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\access_output\libaccess_output_udp_plugin.dll" size="49032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ygpPpqNfE/dc1etX4bi9St+6Eao90YCokGE2hI1Hwyo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libaudio_format_plugin.dll" size="69000">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BVx23Qy2rUNQqLSlYlCWTbSHBivok1GUOLJN5AMQyuA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libaudiobargraph_a_plugin.dll" size="74120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HxRjU9c2r4zXTSXz9fV4DHR1MppPQdB74yH9iEyP73g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libchorus_flanger_plugin.dll" size="54152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fhLvfmg9wfD+t0RNvvrKGslndjybEmWHQCyXhlcwUmo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libcompressor_plugin.dll" size="58248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qrvpCQTzn6YMUBm/lj9Mt75ost/AEvsOw2o+WJjH5mQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libdolby_surround_decoder_plugin.dll" size="44424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/iBOzDIIgMaV5JoOxJLnimZMpoFwHHc+AEu2ocW1hIY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libequalizer_plugin.dll" size="85896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7qD3f2wsyc7dvrVC0g3ZpEmVMNKaUT7nVfY7nyzoIl8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libgain_plugin.dll" size="44424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QHM+d8zjjd6RHKfdWgr3j2vFCXM0s6xJ68KdjmmHLFc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libheadphone_channel_mixer_plugin.dll" size="50568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hFmh4JfzwVR789eU8CC4D5jvwNwSYZQRwq5V+m192OU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libkaraoke_plugin.dll" size="43400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zWOKOPQakTBrSKniJmgCDoV2U3gRwBQkbC0XNq/prqA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libmad_plugin.dll" size="174472">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D6nUjZIuNNr3Z3KPsBF/+zLQ1U33SAbAMcqbnXd14CU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libmono_plugin.dll" size="51592">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KXsbpj3T4NbI8pZsgb7HSPkdqVlhktLl8OeMVtkX1JM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libnormvol_plugin.dll" size="47496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9f6BASzQjxRoGvXKO7g4FZZTv0r4TiLDlAGv7hMNJYM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libparam_eq_plugin.dll" size="54152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XXo4leKOHKM1Nh+GbJtwPJeK8jP3Oh9Q1D0GnBK0Raw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libremap_plugin.dll" size="51080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kfscNRr/7nJ7D6s6p1EcPHBTsG+howRGQVcBVN/KF6E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libsamplerate_plugin.dll" size="1525640">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c5s8zI1+U37duMVW6rplsjoYaKG8e5xl4pToIDytxbk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libscaletempo_pitch_plugin.dll" size="58760">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MfYmZzOhW5cTYbqp9Wf0aVyGYxjNeIVtkgtPXgPm2Ys=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libscaletempo_plugin.dll" size="52616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rcbdzlji4JNcu82rQt0zwNyxIWC4HthSR6MR0EQYcRw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libsimple_channel_mixer_plugin.dll" size="52616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RjBTvLwYoOhCzAxOYqxKmRfQboKmFs/RELB9FqL1h8k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libspatialaudio_plugin.dll" size="1090952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OMpZ6U7swmuhvtLuQMtjKRL9lVC4ouy3GazDypZVoW4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libspatializer_plugin.dll" size="119176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uymAzw8Ii2hGcEtvslpTQ32pHYlQkS23A+KC/zwo1kM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libspeex_resampler_plugin.dll" size="56200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sQgC2FdskCI/NIv7ah+eWccG8zBKV1JMreDqXaYJfbI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libstereo_widen_plugin.dll" size="48008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BVFJyiOrvZE/yxhWRJ8N8HWkDxkY1HjR7X4bO4fgyKQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libtospdif_plugin.dll" size="60296">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NpsJs1RrWC5zJ8sCANVQoLtmJqw9QSCxWrsdCNjcVG8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libtrivial_channel_mixer_plugin.dll" size="46984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8CVT7W/hRW0Bp0hGS8sVC/nKusMMjS0C1NtQV5idpBk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_filter\libugly_resampler_plugin.dll" size="44424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FjBhtYlE/XPj+p8EFAFQELj74yJhVII3woVu5udKgWk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_mixer\libfloat_mixer_plugin.dll" size="44424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>f9XCiTrtf98XUVXatARdMvyc0O/2uG4/40HsJUBwGf4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_mixer\libinteger_mixer_plugin.dll" size="48008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>b6blFMBpaAPOQ0jK6p7NjWGqaF8i0qeUh0Mqh6hsHgQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_output\libadummy_plugin.dll" size="42888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KlZ/HkWHiAnyYQJfzX17b17KIhFKC4scpoDkd6MxNuw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_output\libafile_plugin.dll" size="46984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WVxZbw0bxVoUVByfqorXWVqlt1+YYoakJtgwS76z63s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_output\libamem_plugin.dll" size="45960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fT0XA85T4JHH3lTOrs0iKcXXNEruK58HMJgeBmhXlk8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_output\libdirectsound_plugin.dll" size="65416">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jG4xOgulyW70DX52p72OU4Zk8B2AUZqCipE9Moj3yYE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_output\libmmdevice_plugin.dll" size="72072">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>i2dYiNIY+OJcZ2ZwSgLBIccVZSigPXBWhIS1l5YP5hA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_output\libwasapi_plugin.dll" size="62856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KPxfOxie9QsQ30I8Zmz1ESuJ53136CR2VpZreo0zhWY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\audio_output\libwaveout_plugin.dll" size="62856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MZM4VM5PNUFOmaJtnQDJ+N994xKxypKCEqRFobrVYw0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\liba52_plugin.dll" size="113032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xEVGh3DMaiWG/gI4kE5jbJtlDp10z2tFy0taH5mAYIU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libadpcm_plugin.dll" size="54664">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ipz+diDfxu+qtGq+rjv4s6A69gOAxrVTtYR2MFAF7UU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libaes3_plugin.dll" size="46984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>y+NB7iQ1kvu7sSPE5fLHcb1dOpwtvyS7WUqmoGzHfqY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libaom_plugin.dll" size="2061704">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aOF4upleHjYA6lXx8JwFxw+LDKrndaz11qwCPy0zwOA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libaraw_plugin.dll" size="67976">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GFmEgcTUOeyPuvo8WydXZWLCZltBEmPoJZTKwnbgw10=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libaribsub_plugin.dll" size="355208">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oC7L6weYOu/B0Du1u+K+4BWKaQBMobffs+kFe4axPVk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libavcodec_plugin.dll" size="17273224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2IeSHa/eBUQrO6Hlw6s0gyM1UOU5cw2cJKPcUpxeEMg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libcc_plugin.dll" size="79752">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OCJsSVOkTb3NffAdrmfoYyOKisN6IBu37GZYIx7C3Kg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libcdg_plugin.dll" size="49544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2hOLbnFpUn+0x5XOhRlLGZlbZ3uqZq2xjb7YIMDsI7o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libcrystalhd_plugin.dll" size="122248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+q68vIG7KMQ0uTeNsnzJubMozFRwBM9Zud3yRbS+d2k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libcvdsub_plugin.dll" size="50056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dlMav8U5kCRIdjfEq78GhKsJ6gFybfsZt6m3U6FNbrA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libd3d11va_plugin.dll" size="299400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KDAx+vFDHwC/L0HQnOtsVmNhHTEk+dbjT2r+Uibccjc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libdav1d_plugin.dll" size="1891208">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>366BNRyRk1yMsc7yuQs9ZCkK7lc25tAh1BUMKLHGWzQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libdca_plugin.dll" size="216456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>u/72PK71xS+lGgWW+aEiTLSjUNj2Lk3j0uDwr5o4ybQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libddummy_plugin.dll" size="69000">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8e2naaWG/43Xu6TdV2XuVMpmGNHev0yScxn++lwSE28=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libdmo_plugin.dll" size="70024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xYxbg0qdp5pYOle/22LdZ0iO+PWclC00mPiRsEtCHcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libdvbsub_plugin.dll" size="123784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4xpiWYprQY7ZXC25EWjH1no45R+xfTwNhpmqVI/z0LU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libdxva2_plugin.dll" size="333704">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RkTOVO9r3HwkfYS4nTy+2fH8UWxGr43J9vNqcS18xUI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libedummy_plugin.dll" size="42888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ECX/Bf3AUF0ZuAoBTTpWZWveW2VqpDhjIOOVh4wYrM8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libfaad_plugin.dll" size="309128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MPMS7ZwzwtZEq8HI9HNXjr2YySIVGaietaiR8GhMfEk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libflac_plugin.dll" size="247688">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7Kvea8BHD+bktt6Bbwsqr0igUTkKP/S+6INzC3u7Kps=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libfluidsynth_plugin.dll" size="151944">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/CjqJf2oeBVQjo6ggCKkZxeYaA9iwOjmK+AIDGq+HkM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libg711_plugin.dll" size="57224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uTAQMBsAybhcqSHo9+wTDsU1CbQ2vrr9Vw4rmvzl+J0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libjpeg_plugin.dll" size="247176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j9bfFjnjQoD1BDxNPkqYowaVvw/Q2m5L1RbUU8ZkQ+c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libkate_plugin.dll" size="100232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JkX3owBTuOrYnAA+P/0dGxM8L1eVMVpFYjqh56UOIFw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\liblibass_plugin.dll" size="3125128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BrxZW44rvoZEQdA4YwBU/F0wSv8pXFCuWKe2iD75ciU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\liblibmpeg2_plugin.dll" size="150920">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6VcNcPZPlUp98LgNmRFhQtUS8OL/f3mQIf2AAaixTJE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\liblpcm_plugin.dll" size="54152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6QBOFvGQwm+NZqzWBin2joqADZhxe6qgsxL6AyelXGI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libmft_plugin.dll" size="140168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9+grR6Wf1pG9elr8lu8utUAbTMm4l7olYEDSdvN6QEc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libmpg123_plugin.dll" size="424328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/OEDs3k9yddzdJwtxJ6ouQTwMJwZ9uY7GfMLG0jskfs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\liboggspots_plugin.dll" size="46984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PcqlBUMy2+2GwTvNYdBbtvxQc7Y6G+cw3YAo4uxJaEE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libopus_plugin.dll" size="384904">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1iraQBR7+MO5V+4M+KJr8lGjERSlOrUf9xYlhysPBRY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libpng_plugin.dll" size="291208">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RP1Sj41FB80upZow8L0d/jAIjFlZeIpifOqY2zue7eQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libqsv_plugin.dll" size="175496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HZmup7Mm9OR622Y/or4osBdbCl7aGwGF5dzuqNQ9jU8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\librawvideo_plugin.dll" size="45960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gPEKw0S8F2fo78A+KJAswOFv2Lz0/T/ApGv89YU9E2E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\librtpvideo_plugin.dll" size="43400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Rgvpm5Tz/UGJg7UsGlc6QGuX9m7Rr4NTDBbUE77Yysg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libschroedinger_plugin.dll" size="1461640">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D86IinfOnO24r+ClKmDPlfiANSlFKed+0Z6bOqEfaOI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libscte18_plugin.dll" size="50568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>b40BUKB3UBld3DtQDvbSVCmmCmEX84WJr58Mlz3XiSk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libscte27_plugin.dll" size="62856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pk6DE1L85swXNTF3R3ryVsZvGupEJtnxUMg4dxJ3dgI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libsdl_image_plugin.dll" size="755080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qd9ec4qIZr/rc+2rRBPLHwWseJ9ZaTYC0YS9ehZ6YdY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libspdif_plugin.dll" size="42888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FN6k5OMwJFjw3cKdpkPNuqZH19Fw562/vF9fKypsAuA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libspeex_plugin.dll" size="171912">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Qh79/9l++yia5OlT9Nbkts0KkZ7OhVvgeT3bWXT5Aqs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libspudec_plugin.dll" size="53640">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yzy3oJCLJ5suyOni3WS++3xcz+ASch/pQkr7sKxyfTY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libstl_plugin.dll" size="50568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ilid0tr4Lf8/VqS5VAmR1FNEZ2rda7qpsuMJ1eM/BCo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libsubsdec_plugin.dll" size="82312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AFJeaJdXA13P+H1hCsHlIGddDHpo2mw/MFuj2G6LBq8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libsubstx3g_plugin.dll" size="49544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>J/tVstEsfln8gMEPUgZDb063tmUEDRmgIRVgArWSmLg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libsubsusf_plugin.dll" size="56712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SkKUEDvJNBm6sOZISdVQzpfgaTtYBqyZ2hY9EpnggMw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libsvcdsub_plugin.dll" size="48520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UuG0Ma8hPPGn+M2hHZwNBJt6+YiI+dKkyIzF+zLJg38=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libt140_plugin.dll" size="43912">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9tUALAW+Na5FBc3mnWk5U/A5reDwlCtBQb/edryf+8c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libtextst_plugin.dll" size="48008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x3p6hJpUpRDhr0itMehastQ71t4XiNethv9Peu6wE3E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libtheora_plugin.dll" size="338824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FH0hpdiRWkazUhmHxdWaCyIz8HFoO5FRNnoFYV+ajdU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libttml_plugin.dll" size="127368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+ekKwBh3ICDlmfUWA20ViflhKc5TAhCAbg8gBHAXrTA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libtwolame_plugin.dll" size="166280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gRWhA6MpX900pz3In4sqbIYqhI/hQs8bV036zOuIv5M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libuleaddvaudio_plugin.dll" size="44936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TmByOlzzMGcSvLXGZe2YwlRQlN2q5YC1FBdXFBh49tk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libvorbis_plugin.dll" size="787848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lCpK56PEzvLj5tlSmlaOS4h7Oj7LzAQjrmcfSxG/rAA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libvpx_plugin.dll" size="4510600">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DjgNHcaK9ckTFttWUm/8C045f+WOZC4MmU9DKuiEvsA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libwebvtt_plugin.dll" size="192904">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nSOovbv8OysHj4NbvjAqqeyj/OSsCpsiYzOghlXBtcA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libx264_plugin.dll" size="1882504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w2aqRfsr2JDdAUbPSdEaajbQiWfaCpH1ap7izHjjSHQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libx26410b_plugin.dll" size="1882504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Aj2ZBLMj4l6lg3t0H09tXDTxR78XEOpsBQaSMj5Xxvc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libx265_plugin.dll" size="4914056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dSGQzfh7pL457r39ZZgBDzhjc72FjV899D0Z5Fi9b1I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\codec\libzvbi_plugin.dll" size="1486728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Hsg6DrkXo+1h+wp3V3dSgpsHfE0RFxFG6aVR+TMpSTQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\control\libdummy_plugin.dll" size="43400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1ITYHzMwJWHFyeNIqcFUAaZh67qaUJsdPCY4BsxdvDc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\control\libgestures_plugin.dll" size="49544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>f1pB+KaoThdATUeeJb/UYmAo+Suf9NuRtKBqduGMkbw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\control\libhotkeys_plugin.dll" size="89992">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rq5dOTH6ZIi4DnPYL/QEzgmy1QYiR5jyCQYqd0Axiu4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\control\libnetsync_plugin.dll" size="49544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PnFpovZTI3qAV2IJpD31YqZcAZN/kkrVUmIOo7dEzZY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\control\libntservice_plugin.dll" size="72072">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jVsp1bP0wpRqRXddFgaDxU3XfCxJc7r5qTF+ny0YrrI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\control\liboldrc_plugin.dll" size="98184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Dw951/+HR1MoHZUTJSx6tjIlTR8N1/y41S6g2zOIdGo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\control\libwin_hotkeys_plugin.dll" size="47496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d7cnG9cna76j2NW8NKBBo+QN06EOt+ZmAC4hzQIG1V0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\control\libwin_msg_plugin.dll" size="46472">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uuAzJqTxnqQoeVJPwOfbL6+TobAMUZwcP47x2u13dYI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\d3d11\libdirect3d11_filters_plugin.dll" size="207240">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w90oDMSHOZA43dsWJeuzolZcVn9thMvVM2d0CmmO5qk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\d3d9\libdirect3d9_filters_plugin.dll" size="154504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zLgYYTeBHFXTh6LnTimqVqPEn3AzBm5u1xx3/wmJVjw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libadaptive_plugin.dll" size="2410376">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>G27wXSWR9UhiJd4h2B7RuXTlCLnB3tPGu6H5N9jbIlw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libaiff_plugin.dll" size="46472">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6gG7Ca6deJsgP0TT+siQ/Zj7DTr+0TBZWZpedtYOBRI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libasf_plugin.dll" size="125832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8hZWW5Zp9RhmDz7Ts7URk7+NCBXOt6eyJqp99VjrIIg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libau_plugin.dll" size="45448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ImRvFOv6fNKCJ3P5N3TH+TParQrNcBxshuzWEEQ5qsw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libavi_plugin.dll" size="139144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+I0yTjg18Hr3+f8U11D9+fNUVGS4mERDVmqQC8ghZK8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libcaf_plugin.dll" size="52104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Zs812hSwhKgMBNJ3EJ+QXHqjA69HxR1vgruKlvdIp8s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libdemux_cdg_plugin.dll" size="44936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tLVH8nZPU1DsgHUbJbOly51o0EUKJzLFpbqHme1VacY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libdemux_chromecast_plugin.dll" size="113544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TKx8wmCxKQkn1a9kDNF65O/8UwYUJTYpCd0XpVCyC+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libdemux_stl_plugin.dll" size="48008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dO0wtK8bZ/o9RlvKQ3DThg/xwVZHdQLZe3Au5/ikWt4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libdemuxdump_plugin.dll" size="45448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UYe+K/COpv8hdSaskMoJy1ZKcfTuz7/OSSrMkuKnxeo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libdiracsys_plugin.dll" size="45448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tImNbAMwacLagT20HTGCTQklFR+l4p6qekVWnL7t9uM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libdirectory_demux_plugin.dll" size="44424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Zkla4AAQzq7dmKtpLYWfraUSGgIsG/kvwbek4WB1k/o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libes_plugin.dll" size="74120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zEo4bhe+k8jyWMM0FkqO5gqjeAlDe0FqFF5hJPXtKSw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libflacsys_plugin.dll" size="121224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>A/oUTM0Qi9M6HUFoFU2397CWETUaao80IxrXtuwHvvg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libgme_plugin.dll" size="1106824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kLB1yOt2aJYxIXd5+HEtc6bOG4EPTfm/RY/Xj2HtrpU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libh26x_plugin.dll" size="147336">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5MAVPqXCgvd6wFgvKbjYCPuu71ht+RSQtCir7jtRen0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libimage_plugin.dll" size="57224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AIqAKtH2cuPFxFWt4noHhEnZc4Hhak0gFB33I+I2Cb8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libmjpeg_plugin.dll" size="51080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q1BPp3QarU8KdbsiNV+EiFe4L9WsRusKFp+LX6KFRnE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libmkv_plugin.dll" size="1749896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v44y9SiiJ8R85eFakWKhYb4NJETzHKAu4gtNfa4Cl70=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libmod_plugin.dll" size="450440">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2ugFMRCrAfizRhWFwAkXpelBlx5NhP3aKtcyrGT3yvo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libmp4_plugin.dll" size="331144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nSEZi84ZOOKQ3UqHFXyAFK8u4I81Er0qsFLi1woMvi4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libmpc_plugin.dll" size="112008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>anYMvk4q5BYYpTm1ffT6I9Jy5tMFwQsvT/sgn6Aojcc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libmpgv_plugin.dll" size="44936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ljQWOqZBM5oswF1Vmq5hGk1Bl9LC5EvRKrezcvrhHKY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libnoseek_plugin.dll" size="43400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hiN3dmbjCl9llODRnuaS5O0pNZbPi7AIYbPYn15n1f8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libnsc_plugin.dll" size="82312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Y6h2ZEm5tEUjEhecXSFN7Xun2d6mRrFOvdyXp4HdgeI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libnsv_plugin.dll" size="49544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JzrJXSxGRLzpijhTSuP7Ut0bc7Yiztm0SdUiFkI//qM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libnuv_plugin.dll" size="51592">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>V2Go5atZ1Apdl85WhmsNmG92F8wzeRhhZ3r0oeaj4Tc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libogg_plugin.dll" size="350088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>//u6gHCOMuoTjkshDOIpJDh9Sihf0aFdFQZvn4af7VU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libplaylist_plugin.dll" size="176520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6oDbNK2yUZlTgZ5ioSHeFhk7v2sCq+We05wxLzKtJO0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libps_plugin.dll" size="75656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QyUCJ9LLFXyxpYgySWokgKzj0sIHRrHJnhcNp7D+AA0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libpva_plugin.dll" size="51080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/wzMDjDuZHoRRIBrYHhKQ1W5dui5bZCu8rW8dDqtpCo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\librawaud_plugin.dll" size="46472">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2Pru9yvcIRSGS+Xgf2YX3WTOOOkF2xBDS9I6y6Dc9+4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\librawdv_plugin.dll" size="47496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DIboDjcOsCYpEiNbAP3P04QuN8tTXJvm3A/0PgGKdEM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\librawvid_plugin.dll" size="50056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>I+QPXfDYUFPFC5E3/ivxEeSt72kHuC/8o1ukBUiNfDg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libreal_plugin.dll" size="70024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CzeXdehMtYWR5jQEZFfGpzMJFVcL1oc9gWCREsyRzgY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libsid_plugin.dll" size="1266568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XpimAuSnC82H/STVZ5WvzOOgr3uOn1GlsoRr++cw4zI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libsmf_plugin.dll" size="53128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n7vcMRkKOyTWustOAMWlGk2RT5raREht8zTmiVL98cw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libsubtitle_plugin.dll" size="125832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WvZVkQTigXnrTfzRwLUC+DXdAv5m4U0C4G78VzXycNs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libts_plugin.dll" size="627080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KAEm2sPT13vrDthzJm137Qs47Vj1EEUVLa2Eprp0Izc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libtta_plugin.dll" size="45960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q66+gz7OPoQbXOfrzHAOFGHqD0YgxL9zYnsdpGuwIbg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libty_plugin.dll" size="64392">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MU83u1QihBLAAu7nT/bF4GstUyWPuDYrL6pkoGInrb8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libvc1_plugin.dll" size="45448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oy0jVbw88jDUqH5DReNbMoiiGJQ0pvAEqCQAo5o3mE8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libvobsub_plugin.dll" size="112520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oZ3iFOZT78vu3W59R5Mc8F/6mQj2iE/+zASr9A2veFw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libvoc_plugin.dll" size="48520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6RJCoE+SkQPe8ebBxUSnuZ0idmCt+XMruPsKc7nEsu0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libwav_plugin.dll" size="53640">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xrxAGzG13Vt3bnCzgvfwE5Utb0OK5LAF97wb6R/ZKTw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\demux\libxa_plugin.dll" size="44936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0mBdtQ1wKufgQyclJrPy4AZrZYYHPT45wtAQJ8/NMXo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\gui\libqt_plugin.dll" size="17420688">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GtEW1LdpxeTTLT9eOUcTe8T7e1WTdFl3FTi3NeKbIFc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\gui\libskins2_plugin.dll" size="2355080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>db07kHYiIeWca1YhArV3bXwSX4mStR6w3MjTaeZCbzc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\keystore\libfile_keystore_plugin.dll" size="74632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DLATTjKvpvW2dET59j/pFEotONvR3+WqZT/Z+Nonq74=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\keystore\libmemory_keystore_plugin.dll" size="45448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1wf/Iac60KC8hNxw4SpBYhNe6lDtDnOP2QL660d42zA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\logger\libconsole_logger_plugin.dll" size="67464">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4x5dWEl/6cPAfeNaY5XPPApaaYpKh3TKl4oj9Kpuwr0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\logger\libfile_logger_plugin.dll" size="70536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WtyF4pfFGWUTjouAlBb3pLrngLgpHNpfrybP9BVcjDA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\lua\liblua_plugin.dll" size="399752">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>U5vUU58gjACw8ct9a7IZBB4eUyl/jyzZtWLdp72Pv5g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\meta_engine\libfolder_plugin.dll" size="67976">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>suAwVK6ylKOAmKMvRqNkIcGyaLqa71B1HXltYin5L+A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\meta_engine\libtaglib_plugin.dll" size="1550728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1ZgHmFRd5m63j66zWeqqVhRp9hjbKHAEZbmZyTsadMg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\misc\libaddonsfsstorage_plugin.dll" size="113032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>igCl9kzfYgENqkRDUYDsGG9eWR/IiMMeZPB7LLmQ2h0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\misc\libaddonsvorepository_plugin.dll" size="105864">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Axyt+tZUzOGFUlYAHxFzDSiELElBTgFxGpCZfNd8I5w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\misc\libaudioscrobbler_plugin.dll" size="80776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EcivCaRUfH+PUFRRF2NFNc99AxF8fVi4hzhrR+PEUaA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\misc\libexport_plugin.dll" size="76168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>b5DgpwmTqemry2QT716s9UAhd3dA636kydHSYVoQdL8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\misc\libfingerprinter_plugin.dll" size="88968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/5UM10exQ1YF/5ZGtnFWDDVehuhg/dniRl45ntc82s0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\misc\libgnutls_plugin.dll" size="2175880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bMD/2D3YmZ4IcnDP7FwA3p05OwKnEVXor2xYOxBXoxk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\misc\liblogger_plugin.dll" size="42888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0I17CE5aIwWkf3juMxid7mkYqhU/4/huAKQ2qAwuASE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\misc\libstats_plugin.dll" size="46984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bNBDwldcDPhcGqsRmZSGcDdPvID7NcRaJnnuIJd+1Xk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\misc\libvod_rtsp_plugin.dll" size="126856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>whRLtt1reNEqdk/CQ2ZeMlbIK7UQBzMRkHLXT+8G9VM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\misc\libxml_plugin.dll" size="1091464">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0hkGbNk1sOf9EsM7lga94LWsk8eaocScMWebDtRBFvI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\mux\libmux_asf_plugin.dll" size="77192">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CjzEky42nz8cXkTkNaGwJzOIV3NAzof3DqYwriXTDfU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\mux\libmux_avi_plugin.dll" size="62344">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2QNDVbzQT/KYDP8LhipMxrtO54B/luKDi/f//wiKrmg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\mux\libmux_dummy_plugin.dll" size="44936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Wl3yL2Mw5r5DeiD21UkH5a6nuq2XbVk+rcHrHmHILdQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\mux\libmux_mp4_plugin.dll" size="266120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wBBP8wTx5MurVNdF+k6cLm2hZlvYLuzPZwChorNRVqs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\mux\libmux_mpjpeg_plugin.dll" size="67976">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Hru1awWM11VWPWdiVCxSHHVxfRxPWQwcubXTW0aelxE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\mux\libmux_ogg_plugin.dll" size="100744">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OWJ1+TL3UeW8aaq97akj2hBX6XSb1RszIQ8dcRqCUxg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\mux\libmux_ps_plugin.dll" size="96648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z5itGyFH4zu7lMgv1gBln21ryL7tdOTSZgMklnfGfaw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\mux\libmux_ts_plugin.dll" size="177032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RvD96T+SWHejwQhLvIwdCYlKAZTyCJj+FbAmDqXt5wY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\mux\libmux_wav_plugin.dll" size="48008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4O6aSXYlHUsxmFVvpn6ANaJpo4p/yB26xGLzOr81eC8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\packetizer\libpacketizer_a52_plugin.dll" size="55176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RdQGdT6WmyFOfjc6qp6XN1vaw1t0vbzXqPX4s5m9Zn0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\packetizer\libpacketizer_av1_plugin.dll" size="70024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FRCZSTSFBRqYCrY6zhRqSPoCT2sNnjylD7tFeSh63Yc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\packetizer\libpacketizer_copy_plugin.dll" size="45448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lgf+kRJvi9KYIyfq2DyVT6sjilUaz/uYGVx002AlQcE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\packetizer\libpacketizer_dirac_plugin.dll" size="60808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Xdd+B3VN8FoRnO3ls7xh+B7Y9mAdq1o//X277uYpnhY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\packetizer\libpacketizer_dts_plugin.dll" size="55688">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SjX/rzxcE+Yi0R51p4u/44n6Lp8Sm5fKhRcIZn9AAtU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\packetizer\libpacketizer_flac_plugin.dll" size="54152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r6yQ+kUDCsJrnKOOOVUxEPx+9+j6Te6kzpR7b9t+7rw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\packetizer\libpacketizer_h264_plugin.dll" size="176520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Li2iwtWPqiSfuP7wwHNdcrxxiO79exCEUMa7p5S27ro=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\packetizer\libpacketizer_hevc_plugin.dll" size="158600">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ya1WPjWsETIXhwb0NzhSZXZrNY5B0PhRo6GzX6g1Mpw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\packetizer\libpacketizer_mlp_plugin.dll" size="61832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8VJwGJc0gUVRu8TK2Evfa6izK9Toj+cSfRwMaOGyGY8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\packetizer\libpacketizer_mpeg4audio_plugin.dll" size="96648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>e27YKJUxilR5x5aQ2UtEk/AgJG1GFH17Wjdk9V/veXM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\packetizer\libpacketizer_mpeg4video_plugin.dll" size="59272">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4gRNIPb1u/NVyeVoEmJZgS+u8KNydAphPM0OmdSJq60=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\packetizer\libpacketizer_mpegaudio_plugin.dll" size="50568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qRm/ltM3aKQAM10KNSKMllrMQPi/Qf0dX8QJzDXCzzQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\packetizer\libpacketizer_mpegvideo_plugin.dll" size="59272">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zuCoFHr4sg99vzt0j0+QRJijCbGVRrvc6IFSLgqhUlw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\packetizer\libpacketizer_vc1_plugin.dll" size="67976">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>31GTCKAyw98CGNwSXbWvxa5iDWSYd8BmOTj9VB/2+7o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\services_discovery\libmediadirs_plugin.dll" size="48520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lF3Ml7mBdbelTeyqz8WH09E0neHYuMcsyhrIGZHl+00=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\services_discovery\libmicrodns_plugin.dll" size="122760">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QAWQSG3cnAGiFCnQHFV4gy32J6Na3CtFppR58kdIldM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\services_discovery\libpodcast_plugin.dll" size="51592">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>l/xr9XCd0urkVqO+NMxvF/JbahV15gv3AFQfKEKL/98=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\services_discovery\libsap_plugin.dll" size="157576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lYlBLRT6huu0mgYctxVS8JSEQZ9Kim/WUGhsRjXFhCQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\services_discovery\libupnp_plugin.dll" size="993672">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kbyjxDx5yLHsNFVsVKWxal/9tDWs2eEZ4UopQKYfuec=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\services_discovery\libwindrive_plugin.dll" size="45448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kvEItjne6NjzfR7/qQo+Lzj3C6OEY8y9gv2B4Sf6yyA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\spu\libaudiobargraph_v_plugin.dll" size="53128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hXsBIsHEtVN2EudBLLb+iuW8LLscJnavNz9S5UqqrGI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\spu\liblogo_plugin.dll" size="52616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>C0VMGpjV00yeLKLcF6zAYRqsU6/zGTFXIpYi+5O+Lxs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\spu\libmarq_plugin.dll" size="52104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JpBE6h/YUow+6Htp6LUXsKR+aJcVtnL6qb1jOQ0/VuY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\spu\libmosaic_plugin.dll" size="60296">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IebD55MT8jU1BDUVAKJx7kfh/5f0QaPYDBbPi1GZiJc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\spu\libremoteosd_plugin.dll" size="692104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7UmPg/4GciqDGeEMGfw3Mu4QIFxw04B3Wn5ivUMZqa4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\spu\librss_plugin.dll" size="78728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yTvNasSOv2D+nMEuNtHTlqFOJCuu/hYM2XoxG5/c5EA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\spu\libsubsdelay_plugin.dll" size="55688">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gUXW0cG6LZ8aCvYhKjq3+TE+K2+hJ4Vtv1l0brQbgUU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_extractor\libarchive_plugin.dll" size="485256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>V3ysXzL++Yc/p3NewczJZTrxS9XhDG59mybRkrhdn8c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_filter\libadf_plugin.dll" size="45448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Dn/Y4Yvfx9WEe3NrUe8mOG6VxZ9Xpm4RhZ/Ofep2BMM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_filter\libaribcam_plugin.dll" size="72072">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Hi8RX55/dGD2+Qp7GjW0FQGpGhNh9b6/0zeE3d0SUVg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_filter\libcache_block_plugin.dll" size="46984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uzEEGYAXH4Dxy8SX9nfI0aB2mHLfPDMMt3neLsMK73s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_filter\libcache_read_plugin.dll" size="47496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YYhX49gAw063SzlZcc8EICaNr9LloeYER/xYsS9gomg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_filter\libhds_plugin.dll" size="86408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8q1ch/aPP3CAmrfShnbxS2opoToNepUQemXA/HuD7EI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_filter\libinflate_plugin.dll" size="75144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HC89CVV5T7DoaJCcL8PXQsW8iaxLcHAcXMkBfIy7SHM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_filter\libprefetch_plugin.dll" size="48520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ptR+rqWhxDKteZw6WGtj+i289GdCk3ENZHtvf9i+sJw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_filter\librecord_plugin.dll" size="44936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EXHnTxe2tMBlak+nFzmcwdRufdnUdwI9UgI+ILZkvEI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_filter\libskiptags_plugin.dll" size="45448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Pn06YkbR4rvDlhn8dBkvBGqF1Wgw1hC500sZE2D9dVo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_autodel_plugin.dll" size="44936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>09ZInMwSP4PykWKOtx6+0UHS5UTaYH5lkLmXWPSolaM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_bridge_plugin.dll" size="74632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p3WLfInEGHCQluO34U43wQIUOb6WIbCtuP4R9KSjY90=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_chromaprint_plugin.dll" size="1217416">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w/bFrhtZEa9Is5EKGR3CaU5vlURlSGXyEMRr0mFl9uQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_chromecast_plugin.dll" size="1120648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NIFOY513CuIOIhLQFHPtrh8wMSRc9Wt7u7fuEnUx+Ek=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_cycle_plugin.dll" size="46472">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Dgeu2lgUJRWPdW3mF4NbHrYgvjAO7Na8bXoVRjiXrD4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_delay_plugin.dll" size="45448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>z0518DoyANxd3rVCeRBvHP4ILLZJa522DNOa+WPonoQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_description_plugin.dll" size="44424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bsFSlgoGvuIoSlmMl6d059/3TgXc6lMR+kpRKL7CtsI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_display_plugin.dll" size="45448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3YaMFefD4kH7x4s+3f4TcE2U8Bt9/TBnf9iqsIgVb+8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_dummy_plugin.dll" size="42888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B6Mvye/xH7uzzpspclhn+ruA9GtVpJnWYDtj2t2WBxM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_duplicate_plugin.dll" size="101768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1fCXvzcyuu95AySlInb15GLBtzvfcOXJmym0P2GVj/k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_es_plugin.dll" size="49032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7UIGfJ4DAvPXjZIV9poH0fqPSMLiwVUx3QUfoZO1es8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_gather_plugin.dll" size="46472">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WPFpPOIDzXh4hbNc6lNwk219ptoPwd+gbeytNnDZ6x0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_mosaic_bridge_plugin.dll" size="53128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rIkHuuYX8MWY2B0XGGu5AylDYaBINXPdNHIy2oBC6Mg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_record_plugin.dll" size="78728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zbORfF31NYXzRo7+A/QzSdS+zPxHsbNGIAeZeKD1s9M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_rtp_plugin.dll" size="799112">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4MXYgzx28Ip/rlAmRjq8ohHT1OBWXe00qhlInfzmvGc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_setid_plugin.dll" size="46472">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qKPXEWkVDVfYo1NfpU/KY4Rf91QKT7ZQqD5NZgTYts0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_smem_plugin.dll" size="48520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Uo2hbHZrSh3hVmIiBWrKlsuuTF20qWwiAqkCJhn6qIA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_standard_plugin.dll" size="76680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v6ErQ1wvS9NDUlNphYqVsCH7I95N0Etb0j7yHEXjKmE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_stats_plugin.dll" size="70024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n1LhETm47olZoXPIplNMLtrjR8fVYblQ0g0um7/O+vw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\stream_out\libstream_out_transcode_plugin.dll" size="75656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2HmoB++HiLNHfmzTcyx4V8vwTP5g/AQE0bTrZURuCWs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\text_renderer\libfreetype_plugin.dll" size="2799496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gh7qIdEv0TCews9C3ho5c4t4rNfHJtJjSy8yiU6+sC8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\text_renderer\libsapi_plugin.dll" size="51080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bQYAKCikLCJaOgaV7b6UsuF0Wa78DkIUuZGtNZa7gps=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\text_renderer\libtdummy_plugin.dll" size="42888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5m+DQWpf7Yx2fknNWVOpNoWz2r+Y8eGPK82YGdA/YQM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libchain_plugin.dll" size="72584">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bSQQD+ct0Q+jQbnDFoknLVuexqC0QcBXKh5CjzINOnA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libgrey_yuv_plugin.dll" size="49032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ckangi8y7K/9IqIq2SXha5ltkrUGsvrlK1evdqVYDME=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libi420_10_p010_plugin.dll" size="118664">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hBfLsN4cJilwhvTr5u6t+ua4cHek4LvTz6wXZ0lzRgI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libi420_nv12_plugin.dll" size="120712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GmbyuAMo0h7wittr8FsUzYoHBAkF32yH3SwJQA8FV54=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libi420_rgb_mmx_plugin.dll" size="85896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hb7zZwqRn0rpzFI7i8p/7dIG3g6eJMT0LOCeh8dTr80=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libi420_rgb_plugin.dll" size="62344">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>luJLaposobk1wVzf2fFKcLSOEEr9qIqK5JUZJmsJB80=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libi420_rgb_sse2_plugin.dll" size="150408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BxxO2DN24FZWswmykrXGvlBcH/ilJWwHGybBu/Foi18=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libi420_yuy2_mmx_plugin.dll" size="53128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JMSX4YavyIT10/ds9FO985IZZBoIyNTnII0IAWsZL74=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libi420_yuy2_plugin.dll" size="64392">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Bk7ydJ6QAD1Esvf4aYzwg1nC40nK7hKcqG0r4wye8KU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libi420_yuy2_sse2_plugin.dll" size="62856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7qsEKavqA0Rhk/hNwz7AmuNvPvI+f56w1gSBrdKpzLg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libi422_i420_plugin.dll" size="45960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B6oomlPnXGAGPlckIZWTZ4Zo6HOFV0kMVq9ljySkBYk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libi422_yuy2_mmx_plugin.dll" size="49544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VyM0V+R/Oo5en8C4DosmJMRyG2A6olWCV044KIaA9Xo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libi422_yuy2_plugin.dll" size="59784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qaFy5G+G14zRg4Ipox6QDIfthGb5g23VOgMo4l6Lwu8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libi422_yuy2_sse2_plugin.dll" size="55688">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JWCcSadoownGdH3hGsDnOjjN4R6Hboz5Zf4hLRbAatI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\librv32_plugin.dll" size="43912">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4r319l4A1+3clqyMEunPy3b7zDlXtluOyZdigEVq1zY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libswscale_plugin.dll" size="1017224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Fn698QAp3y+ju5mHmOgnXJTr3KWKARC3mgF8c6XIOQQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libyuvp_plugin.dll" size="45448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RLcCDa+ydUJKcV6+CN0W/IR5tfF06iRzaje9rn5JACY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libyuy2_i420_plugin.dll" size="61832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>o14sJXjgiUuSaIBfMXeAsi9XcM+AD+0Og4M30BQmogs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_chroma\libyuy2_i422_plugin.dll" size="55176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5elOfrubalmbKubh7529LWcjMKFgdOnYS2n55HR81EM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libadjust_plugin.dll" size="95624">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MxX7lZ2YkvwO/wdpZ6DVe4ukn98bFxBoUVRDqhPU9X0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libalphamask_plugin.dll" size="46472">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZNKsNVBuFwpX9h3jghhQ4y4M2v7lzxO+7FbOKc0W3go=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libanaglyph_plugin.dll" size="48520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XeOtM5/2+bJhGAuH2Tc9seDtHTLCCvLfqufgtlet5NE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libantiflicker_plugin.dll" size="53128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GRtrfvCCyZlw8MdqanFTEBuN1psBKJWIkHX6Bnw/ZM8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libball_plugin.dll" size="66952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>N7heRy2JFPA++nJ1q8JNiklgHuh5RRKLnp3S2T8xKyE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libblend_plugin.dll" size="191368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>00hTof3xg+/WTD8kIJcmT6tHju71bmJNU6sf3+W3A/g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libblendbench_plugin.dll" size="47496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XAA8koTcFImhN2EBRhSU1FKJLr6sAY4afSJfTUZ0YoM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libbluescreen_plugin.dll" size="54152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>X6gwsw8jqyQ921CKf8X1FMwSGWSZ10bKnd9teCotF0M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libcanvas_plugin.dll" size="71048">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gCD4138WjHsyuCExf5qaLPAISq1VoatXxZR20v07VIU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libcolorthres_plugin.dll" size="48008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rYdVNAVkk11in3yU4O3kH7Sc+2+8yKYZJ/kxmtd4zEI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libcroppadd_plugin.dll" size="50568">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sggBi2qSAERLQVLrcUaFV2YFx4gNnTTuSkXEj5vBlR4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libdeinterlace_plugin.dll" size="166280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OKP7kZIQ5CkZxbQJvnvMr719tDBhUZ7oCs1puMffXzU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libedgedetection_plugin.dll" size="45448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6OYrFJUtOUtMf5nSWVUGAwaWqE5TuOHeFbwMX82x5lM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\liberase_plugin.dll" size="51080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9QQqINyRWZ0rXWgVY/3hZocVUXCpPiE6AZeBSQAuWXE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libextract_plugin.dll" size="49544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SRAY3KPPP8y2yMtYiCAlCd4TNNII9k5/a/Fmp+dx3ic=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libfps_plugin.dll" size="44936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>A0HDHPYvmBxconayulNdPgdcLNaR0LPL9TSLzFNl81U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libfreeze_plugin.dll" size="49032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kd7fhGN0exRiN1XX1U/CoDxELU8lg1XWH9Pk6MERijo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libgaussianblur_plugin.dll" size="50056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>I8Z9COxQCDJYBKs58rv/rh7uxEnCO81uw1yVENFHmDU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libgradfun_plugin.dll" size="55688">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Tsa86/SQDz9PnBlaopnnNXPoyQow5xU0Uh52p7u/Rys=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libgradient_plugin.dll" size="64904">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wCkjMhZi3+hp36+uPPEE0uLWC9vnSlrNudelmPnvuWo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libgrain_plugin.dll" size="59784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3Dfd/o5JfvrJgO+vlmaPbWQ/wmXIpC0p0k06tNQGZ84=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libhqdn3d_plugin.dll" size="59272">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bn/CRXwlc7QprxlHDMwh2UFulgRFABV4NsECsl0CX/0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libinvert_plugin.dll" size="47496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5VEnkexlEnsJ/D4WbWaUezl5RJaOFOnsfueZfnuxFIE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libmagnify_plugin.dll" size="48520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nJPDLX9G1VucG1Wtmg1SxEziWhIVLjQmCpvE4lPkH7Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libmirror_plugin.dll" size="51080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IxyKbYIYvdaIVz3tpuBAk3H31qe5nBjsJHi/FqPG07g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libmotionblur_plugin.dll" size="48008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bBmqSq19t7iqn5kI0+nyyRzC36pAE4OzhZ/vHjvMwVc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libmotiondetect_plugin.dll" size="54152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>H5sizwHhbNcnIjhuOHSDJZfZ7SyZPBKqmbQarKcROHo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\liboldmovie_plugin.dll" size="55688">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>T4PrrOrei/4r9pEthOajJW4HT0UF2i+85o5OXIefuvI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libposterize_plugin.dll" size="49544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c50a8HYh5yoL0QudUqC2LQuGkJpfLK0soz08oHkaEOU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libpostproc_plugin.dll" size="152968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZGAymwr3fQpbrgzMbnOXt7CSPtge/usHWQHHoTVXDdI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libpsychedelic_plugin.dll" size="45960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UNxsZYQWr2XXN4gumwURwzOn9JJiFz/I21hHEaQ7UyY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libpuzzle_plugin.dll" size="116104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JlrYMCofXIPlKKnn7o/Jb1dJqKZ+o+QmRHH3pUHwktM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libripple_plugin.dll" size="47496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vls2b/hnC6+cNW7evDD/BtG39AYkoLWCXGL00wTiTrs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\librotate_plugin.dll" size="88968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2ho2ODV7VdoB2CKO0grLjMBnHzsCSGntCw7uAwH6dGM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libscale_plugin.dll" size="45448">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>r8MTVnmsRdj4pBpBIGGUvYPn379G1o7Ou1KtMIuWCGI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libscene_plugin.dll" size="71048">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xihEzJTLWAHNUvobPyMjtuckHrgbsyb/279blrtxvG0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libsepia_plugin.dll" size="48520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KQg0ewPmZSsWyLrLAT8fnJ4AK6bUBGDARZ0RFjCPpU8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libsharpen_plugin.dll" size="46472">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EYlxs2XcJcXQdLzHeTBIzKAN0qxdQa0e1UN0KD4+6S8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libtransform_plugin.dll" size="60808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M49gGbaKBlG0siGXg/3M+V3V9Aa/A7lRwqz5OU99Dtk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libvhs_plugin.dll" size="48520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>N5HPbtcBixDTTtPjhG3OOUMtk97fn44jlNopJBb67fM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_filter\libwave_plugin.dll" size="46984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YFv4onK1NmqZ9MsVF8/BQIlz4XY48oH5PbCvm5gP/GI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libcaca_plugin.dll" size="848264">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OZWNm/LlANgwKaHKs83K5qBBTTPgIXM6U+ZZ6KnS/YQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libdirect3d11_plugin.dll" size="384904">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yel/yaaFRDV6Y2Cap6QqUl1iOQVWPONoK0kU3IhZf58=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libdirect3d9_plugin.dll" size="274312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>l7TcWyUrQ033xFx8J2HBg8yHp7EnZQXrWS/lZ6pmJII=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libdirectdraw_plugin.dll" size="256904">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zDnmn2aGKtu+DAQsh+5wMjb5MDqIePxauhn9iyeTHWg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libdrawable_plugin.dll" size="44424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HhdyJPpngHYgx2edJMWbK2jppv8dIYTJVCKi5XWKf9c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libflaschen_plugin.dll" size="70024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Dr7U69wZAK6nNtTQKcI1Bv719Wg/7+aINNn0fBazJk8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libgl_plugin.dll" size="252296">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iY5YRJV8c7pUYCWFbRFpBx+gKnlM/3U0mpKw4r/DVPs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libglinterop_dxva2_plugin.dll" size="133000">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JRxEwekcVvSHB6CxZT0IGgzcFQclQaXYI8IV2bWZeaQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libglwin32_plugin.dll" size="447368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>etVgj1xXY0XGxI4janfdHiDC7rn8Vy/gn/78Jtv2dfk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libvdummy_plugin.dll" size="45960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B+VVz9fxLyeerAWAeb0qW4Zr7nf3BWQN1iP2uiSUAXo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libvmem_plugin.dll" size="46984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2SIE63HAdtxZZSPlpsqzbCVBwQu8dg7r+u895g94TIk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libwgl_plugin.dll" size="250248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1/bTGvEgeT5tT6kchEHzQrychMDp1F4uHpbp9Dg/oCk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libwingdi_plugin.dll" size="240008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8oz/TudXT/gqFbJRstl1qX5sSnaS6xRHjL/p+3jVDLU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libwinhibit_plugin.dll" size="44936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Zi4w5YTWxkbmIQwQFs8pOO+dD+YR9qC/kLrEllrvXm0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_output\libyuv_plugin.dll" size="70024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t3GS2ry40yvPipP2K/c1zChLHFpUH4AQI0w2Y2bVXW4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_splitter\libclone_plugin.dll" size="46472">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xWAPL/2SL11hTUskY8HYi2DTayuwTmfxuCOg5bMltH4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_splitter\libpanoramix_plugin.dll" size="70536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aAzce7n0V6swsm31h+qvs5eZVpWk0KgSV6RvYLvXzr4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\video_splitter\libwall_plugin.dll" size="84872">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pxT+qJET3AoWlF1QvUlKys10A9HglXMK5HeW5uVJPyc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\visualization\libglspectrum_plugin.dll" size="64392">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8KUgNEWPQyKGWCx9wxLkUf/uVYMKS9mQ+w7CSZoGjes=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\visualization\libgoom_plugin.dll" size="230792">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v5cfspIyB0QHMPsFH2Cs8wL+mlZ2ero1nVEsIT2uvPo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\visualization\libprojectm_plugin.dll" size="1734024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1+RhfBNjOYDC5aRVYsx5yBvuky+Idmv8ZLEW3fCUULU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="plugins\visualization\libvisual_plugin.dll" size="80776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vnSgY/7Lt4mtRV+vvI2rhI3C47FgK2GDz88ejr6KqIA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.IO.Pipelines.dll" size="77608">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LEa9KTLHuZJzWH6RI1iTMvA3I//kiieivSi5qCynUsM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Net.Http.Json.dll" size="56080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3Dm+ZBMwN0vgk76+TFV0CIF6yJbupDaMRy1Kx1l0+Hc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Text.Encodings.Web.dll" size="70952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ntZiY3mfe9X0SnphYC8IPKkBLoj0erDGwXgEW4YWIsE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="System.Text.Json.dll" size="643856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wMUgMnSxGX3xzFHjPrH8oYcEr1eV9Yb2RyCT9c6o1sg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Tools\ffmpeg.exe" size="153811968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uTQEwcNZJHUxa2vWnvnZYD4A/lCtA7zO2tOGWAgjx/I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Tools\yt-dlp.exe" size="18108627">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w1khoFF3AEchG1Iq+VfmWj6094hXJTO0zmtnthmypEM=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
